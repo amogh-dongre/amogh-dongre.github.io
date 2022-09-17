@@ -1,5 +1,5 @@
 ---
-title: My first post
+title: File Organiser 
 date: 2022-09-17 13:12 +0530
 categories: [python,fileorganising,scripting]
 tags: [python]     # TAG names should always be lowercase
