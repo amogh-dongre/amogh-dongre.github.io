@@ -14,7 +14,7 @@ import os
 import shutil
   ``
 ##  Sorting Method
-  ``python
+``python
   
 def sort_files_in_a_folder(mypath):
     """
@@ -41,12 +41,14 @@ def sort_files_in_a_folder(mypath):
             dest_path = filetype_folder_dict[str(filetype)]
             shutil.move(src_path, dest_path)
     print(src_path + ">>>" + dest_path)
-  ``
+``
 ## Main
 ``python
 if __name__ == "__main__":
-mypath = "/home/amogh/Downloads" #change this directory to the one you wish to organise the files in
-sort_files_in_a_folder(mypath)
+ 
+ mypath = "/home/amogh/Downloads" 
+  
+  sort_files_in_a_folder(mypath)
 ``
 # Installation of the file 
 ``bash
