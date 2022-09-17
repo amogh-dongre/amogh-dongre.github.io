@@ -51,7 +51,7 @@ if __name__ == "__main__":
   sort_files_in_a_folder(mypath)
 ```
 # Installation of the file 
-```bash
+```zsh
  git clone https://github.com/amogh-dongre/python_projects 
 ```
 # Config notes
