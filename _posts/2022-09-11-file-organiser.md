@@ -7,14 +7,14 @@ tags: [python]     # TAG names should always be lowercase
 # Hello this is a program to organise file based on type
 #               the actual file: 
 ## All the imports
-  ``python
+ ```python
 from os import listdir
 from os.path import isfile, join
 import os
 import shutil
-  ``
+```
 ##  Sorting Method
-``python
+```python
   
 def sort_files_in_a_folder(mypath):
     """
@@ -41,19 +41,19 @@ def sort_files_in_a_folder(mypath):
             dest_path = filetype_folder_dict[str(filetype)]
             shutil.move(src_path, dest_path)
     print(src_path + ">>>" + dest_path)
-``
+```
 ## Main
-``python
+```python
 if __name__ == "__main__":
  
  mypath = "/home/amogh/Downloads" 
   
   sort_files_in_a_folder(mypath)
-``
+```
 # Installation of the file 
-``bash
+```bash
  git clone https://github.com/amogh-dongre/python_projects 
-``
+```
 # Config notes
  1. go into the python_projects folder. 
  2. open the organise.py file in a text editor of choice and change the directory path in the mypath variable.
